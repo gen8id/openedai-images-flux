@@ -8,6 +8,7 @@ import os
 import sys
 import time
 
+import PIL as pillow
 from PIL import Image, PngImagePlugin
 from diffusers import FluxTransformer2DModel, FluxPipeline
 from loguru import logger

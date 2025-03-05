@@ -1,3 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.5.1+cu124
+--extra-index-url https://download.pytorch.org/whl/cu124
+torchvision==0.20.1+cu124
+--extra-index-url https://download.pytorch.org/whl/cu124
+torchaudio==2.5.1+cu124
+
 accelerate
 diffusers>=0.30.2
 fastapi
@@ -12,3 +19,5 @@ python-multipart
 sentencepiece
 transformers
 uvicorn
+Pillow >= 11
+Image >= 1.5
